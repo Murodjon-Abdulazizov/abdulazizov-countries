@@ -12,8 +12,137 @@
 </head>
 <body>
 
+  <header class="site-header">
+    <div class="site-header-container container">
+      <a href="index.html" class="site-header-logo">
+        <h2 class="site-header-logo-text">Where in the world?</h2>
+      </a>
+      <button class="site-dark-button"> <span class="dark-mode-container"><img class="icon-dark-mode-img" src="img/icon-moon.svg" alt="moon"> Dark Mode</span></button>
+    </div>
+  </header>
 
+  <main class="main-content">
+    <section class="hero">
+      <div class="site-hero">
+        <div class="container">
+          <form action="https://htmlacademy.echo.ru" class="site-hero-form">
+            <input class="site-search" type="search" name="site-search" id="" placeholder="Search for a country…">
+            <select name="region" id="region" class="site-select">
+              <option value="Filter by Region" disabled selected>Filter by Region</option>
+              <option value="Africa">Africa</option>
+              <option value="America">America</option>
+              <option value="Asia">Asia</option>
+              <option value="Europe">Europe</option>
+              <option value="Oceania">Oceania</option>
+            </select>
+          </form>
+        </div>
 
-  <script src="js/main.js"></script>
-</body>
-</html>
+        <div class="site-hero-countries">
+          <div class="hero-countries-container container">
+            <div class="countries-items">
+              <div class="countries-item">
+                <img src="img/flag-germany.jpg" alt="Germany" class="countries-item-img" srcset="img/flag-germany.jpg 1x, img/flag-germany@2x.jpg 2x">
+                <div class="countries-items-sourse">
+                  <h3 class="countries-item-heading">Germany</h3>
+                  <div class="countries-item-sourse">
+                    <p class="countries-item-text"><span class="text-bold">Population:</span class="text-bold"> 81,770,900 </p>
+                    <p class="countries-item-text"><span class="text-bold">Region:</span class="text-bold"> Europe </p>
+                    <p class="countries-item-text"><span class="text-bold">Capital:</span class="text-bold"> Berlin </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="countries-item">
+                <img src="img/flag-usa.jpg" alt="Usa" class="countries-item-img" srcset="img/flag-usa.jpg 1x, img/flag-usa@2x.jpg 2x" width="264" height="160">
+                <div class="countries-items-sourse">
+                  <h3 class="countries-item-heading">United States of America</h3>
+                  <div class="countries-item-sourse">
+                    <p class="countries-item-text"><span class="text-bold">Population:</span class="text-bold">323,947,000 </p>
+                    <p class="countries-item-text"><span class="text-bold">Region:</span class="text-bold"> Americas </p>
+                    <p class="countries-item-text"><span class="text-bold">Capital:</span class="text-bold"> Washington, D.C. </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="countries-item">
+                <img src="img/flag-brazil.jpg" alt="Brazil" class="countries-item-img" srcset="img/flag-brazil.jpg 1x, img/flag-brazil@2x.jpg 2x">
+                <div class="countries-items-sourse">
+                  <h3 class="countries-item-heading">Brazil</h3>
+                  <div class="countries-item-sourse">
+                    <p class="countries-item-text"><span class="text-bold">Population:</span class="text-bold"> 206,135,893 </p>
+                    <p class="countries-item-text"><span class="text-bold">Region:</span class="text-bold"> Americas </p>
+                    <p class="countries-item-text"><span class="text-bold">Capital:</span class="text-bold"> Brasília </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="countries-item">
+                <img src="img/flag-iceland.jpg" alt="Iceland" class="countries-item-img" srcset="img/flag-iceland.jpg 1x, img/flag-iceland@2x.jpg 2x">
+                <div class="countries-items-sourse">
+                  <h3 class="countries-item-heading">Iceland</h3>
+                  <div class="countries-item-sourse">
+                    <p class="countries-item-text"><span class="text-bold">Population:</span class="text-bold"> 334,300 </p>
+                    <p class="countries-item-text"><span class="text-bold">Region:</span class="text-bold"> Europe </p>
+                    <p class="countries-item-text"><span class="text-bold">Capital:</span class="text-bold">  Reykjavík </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="countries-item">
+                <img src="img/flag-ex-afghanistan.jpg" alt="Afghanistan" class="countries-item-img" srcset="img/flag-ex-afghanistan.jpg 1x, img/flag-ex-afghanistan@2x.jpg 2x">
+                <div class="countries-items-sourse">
+                  <h3 class="countries-item-heading">Afghanistan</h3>
+                  <div class="countries-item-sourse">
+                    <p class="countries-item-text"><span class="text-bold">Population:</span class="text-bold"> 27,657,145 </p>
+                    <p class="countries-item-text"><span class="text-bold">Region:</span class="text-bold">  Asia </p>
+                    <p class="countries-item-text"><span class="text-bold">Capital:</span class="text-bold"> Kabul </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="countries-item">
+                <img src="img/flag-aland.jpg" alt="aland" class="countries-item-img" srcset="img/flag-aland.jpg 1x, img/flag-aland@2x.jpg 2x">
+                <div class="countries-items-sourse">
+                  <h3 class="countries-item-heading">Åland Islands</h3>
+                  <div class="countries-item-sourse">
+                    <p class="countries-item-text"><span class="text-bold">Population:</span class="text-bold"> 28,875 </p>
+                    <p class="countries-item-text"><span class="text-bold">Region:</span class="text-bold"> Europe </p>
+                    <p class="countries-item-text"><span class="text-bold">Capital:</span class="text-bold">  Mariehamn </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="countries-item">
+                <img src="img/albania.jpg" alt="Albania" class="countries-item-img" srcset="img/flag-albania.jpg 1x, img/flag-albania@2x.jpg 2x">
+                <div class="countries-items-sourse">
+                  <h3 class="countries-item-heading">Albania</h3>
+                  <div class="countries-item-sourse">
+                    <p class="countries-item-text"><span class="text-bold">Population:</span class="text-bold"> 2,886,026 </p>
+                    <p class="countries-item-text"><span class="text-bold">Region:</span class="text-bold"> Europe </p>
+                    <p class="countries-item-text"><span class="text-bold">Capital:</span class="text-bold">  Tirana </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="countries-item">
+                <img src="img/flag-algeria.jpg" alt="Algeria" class="countries-item-img" srcset="img/flag-algeria.jpg 1x, img/flag-algeria@2x.jpg 2x">
+                <div class="countries-items-sourse">
+                  <h3 class="countries-item-heading">Algeria</h3>
+                  <div class="countries-item-sourse">
+                    <p class="countries-item-text"><span class="text-bold">Population:</span class="text-bold"> 40,400,000 </p>
+                    <p class="countries-item-text"><span class="text-bold">Region:</span class="text-bold"> Africa </p>
+                    <p class="countries-item-text"><span class="text-bold">Capital:</span class="text-bold">  Algiers </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+  </html>
