@@ -181,6 +181,10 @@ img {
   color: var(--textcolor);
 }
 
+.site-search::placeholder{
+  color: var(--searchtextcolor);
+}
+
 .site-select{
   background-color: var(--otherbgcolor);
   color: var(--textcolor);
