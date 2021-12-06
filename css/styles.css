@@ -280,12 +280,14 @@ img {
   justify-content: space-between;
   margin-top: 80px;
 }
+
 .countries-information-img {
   display: flex;
   width: 560px;
   height: 401px;
   margin-right: 80px;
 }
+
 .countries-information-text {
 
 }
@@ -295,10 +297,12 @@ img {
   margin-bottom: 25px;
   margin-top: 0;
 }
+
 .countries-information-text-container {
   display: flex;
   margin-bottom: 70px;
 }
+
 .countries-item-sourse:not(:last-child) {
   margin-right: 115px;
 }
@@ -307,17 +311,19 @@ img {
   display: flex;
   align-items: center;
 }
+
 .state-selection-heading {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 600;
   color: var(--textcolor);
   margin-right: 15px;
-
 }
+
 .state-selection-containet-button {
   display: flex;
 }
+
 .state-selection-button {
   width: 96px;
   color: var(--textcolor);
